@@ -1,0 +1,48 @@
+/* Write some CSS below */
+#banner {
+	background-color: rgba(196, 196, 196, 1);
+	background-size: cover;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container {
+	padding: 20px 100px;
+}
+
+.container img {
+	height: 280px;
+}
+
+#banner img {
+	width: 110px;
+}
+
+#banner h1 {
+	font-size: 82px;
+	margin: 0px;
+}
+
+h1:hover {
+	color: red;
+}
+
+.all-books {
+	display: flex;
+	padding: 10px;
+	border: 1px solid red;
+	flex-direction: column; 
+	/*^^ does the same as flex-wrap: wrap;*/
+}
+
+.book-images {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 0px;
+}
+
+/*.all-books img {*/
+	/*margin-bottom: 20px;*/
+/*}*/
+
