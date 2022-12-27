@@ -1,23 +1,24 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>My Books - Personal Goodreads</title>
-
-  <!-- Change these Google fonts with your own choice -->
   <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <!-- Banner section -->
   <div id="banner">
-    <h1>MY BOOKS</h1>
+    <h1 id="typeWriter" onmouseenter="typeWriter()">MY BOOKS</h1>
     <div id="menu-and-avatar">
       <img src="images/menuIcon.png" alt="menuIcon" id="menuIcon">
       <img src="images/avatar.png" alt="avatar" id="avatar">
     </div>
   </div>
+
   <!-- Cards section -->
   <div class="container">
     <div class="all-books">
@@ -38,7 +39,33 @@
     </div>
   </div>
 
-
   <!-- Footer section -->
+
+  <!-- JavaScript -->
+  <script>
+    // function hideTitle() {
+    //   document.getElementsByTagName('h1')[0].style.color = 'rgba(0, 0, 0, 0)';
+    // }
+
+    var i = 0;
+    var txt = 'MY BOOKS';
+    var speed = 50;
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("typeWriter").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+  </script>
+
+
+
+
+
+
+
+
 </body>
 </html>

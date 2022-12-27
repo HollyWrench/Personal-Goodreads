@@ -41,9 +41,9 @@
   padding-right: 20px;
 }
 
-h1:hover {
+/* h1:hover {
 	color: red;
-}
+} */
 
 .all-books {
 	display: flex;
