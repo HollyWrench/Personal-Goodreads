@@ -64,11 +64,13 @@
 
 #box {
   background-color: #FFE5E5;
-  height: 280px;
-  width: 180px;
+  height: 218px;
+  /* width: 180px; */
   border: 1px solid #FFA7A7;
   font-family: 'Redressed', cursive;
   font-size: 32px;
+  padding: 60px 40px 0px;
+  text-align: center;
 }
 
 /*.all-books img {*/
