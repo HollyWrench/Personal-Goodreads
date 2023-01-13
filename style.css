@@ -58,7 +58,17 @@
 .book-images {
 	display: flex;
 	justify-content: space-between;
-	margin: 5px 0px;
+	margin: 0px 0px;
+  overflow: scroll;
+}
+
+#box {
+  background-color: #FFE5E5;
+  height: 280px;
+  width: 180px;
+  border: 1px solid #FFA7A7;
+  font-family: 'Redressed', cursive;
+  font-size: 32px;
 }
 
 /*.all-books img {*/
