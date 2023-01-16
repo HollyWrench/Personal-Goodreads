@@ -4,11 +4,11 @@
 #banner {
 	background-color: rgba(255, 208, 208, 1);
 	background-size: cover;
-	padding: 20px 100px;
+	padding: 0px 100px;
 	display: flex;
 	justify-content: space-between; /* so text and avatar on opposite sides*/
   position: absolute;
-  height: 75px;
+  height: 90px;
   left: 0px;
   right: 0px; /* instead of width */
   top: 0px;
@@ -66,8 +66,8 @@
 
 #box {
   background-color: #FFE5E5;
-  height: 218px;
-  /* width: 180px; */
+  height: 280px;
+  width: 180px;
   border: 1px solid #FFA7A7;
   font-family: 'Redressed', cursive;
   font-size: 32px;
