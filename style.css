@@ -104,12 +104,19 @@
   margin: 40px 0px;
   box-shadow: 10px 10px 30px #DFFFD0;
   font-family: 'Pontano Sans', sans-serif;
+}
+
+.book-review h2 {
   font-size: 34px;
+}
+
+.book-review h3 {
+  font-size: 26px;
 }
 
 .book-review img {
   height: 480px;
-  margin: 80px 60px;
+  margin: 80px 0px 80px 60px;
   border: 1px solid #FFA7A7;
   float: left;
   /* ^^ positions this img to the left of the text */
@@ -125,10 +132,10 @@
 }
 
 .book-info {
-  width: 46%;
+  width: 58%;
   float: right;
   margin-top: 80px;
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 .review-info {
@@ -138,4 +145,11 @@
   height: 400px;
   width: 100%;
   float: right;
+  font-size: 18px;
+  padding: 40px 60px;
+}
+
+.review-info h4 {
+  color: #FFA7A7;
+  font-size: 18px;
 }
