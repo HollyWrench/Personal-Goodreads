@@ -73,11 +73,9 @@
 	/*^^ does the same as flex-wrap: wrap;*/
 }
 
-.book-images {
-	display: flex;
-	justify-content: space-between;
-	margin: 0px 0px;
-  overflow: scroll;
+.all-books img {
+  border-radius: 4px;
+  margin: 4px;
 }
 
 #box {
@@ -89,8 +87,9 @@
   font-size: 32px;
   padding: 60px 40px 0px;
   text-align: center;
+  border-radius: 4px;
 }
 
-/*.all-books img {*/
-	/*margin-bottom: 20px;*/
-/*}*/
+#box:hover {
+  text-shadow: 2px 2px #FFA7A7;
+}
