@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 
 
-#banner {
+#header {
 	background-color: rgba(255, 208, 208, 1);
 	background-size: cover;
 	padding: 0px 100px;
@@ -29,7 +29,7 @@
   height: 75px;
 }
 
-#banner h1 {
+#header h1 {
 	margin: 0px;
   font-family: 'Redressed', cursive;
   font-weight: 400;
