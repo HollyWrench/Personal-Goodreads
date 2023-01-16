@@ -48,7 +48,9 @@
 } */
 
 .all-books {
-	display: flex;
+	background-color: #FFF4F4;
+  border-radius: 5px;
+  display: flex;
 	padding: 10px;
 	border: 1px solid red;
 	flex-direction: column;

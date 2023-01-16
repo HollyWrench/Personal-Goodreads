@@ -4,9 +4,12 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport">
   <title>My Books - Personal Goodreads</title>
   <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
 <body>
@@ -22,18 +25,40 @@
   <!-- Cards section -->
   <div class="container">
     <div class="all-books">
-      <div class="book-images">
-        <img src = "images/alderman.png" alt="alderman">
-        <img src = "images/cox.jpg" alt="cox">
-        <img src = "images/fry.jpg" alt="fry">
-        <img src = "images/versaas.jpg" alt="versaas">
-        <img src = "images/mckibben.jpg" alt="mckibben">
-        <img src = "images/miller2.jpg" alt="miller2">
-        <img src = "images/miller.jpg" alt="miller">
-        <img src = "images/min.jpg" alt="min">
-        <img src = "images/westover.jpg" alt="westover">
-        <img src = "images/steinbeck.jpg" alt="steinbeck">
-        <div id="box">ADD NEW BOOK</div>
+      <div class="row" row-cols-sm-4 row-cols-md-8 row-cols-lg-12>
+        <div class="col-sm-6 col-md-3 col-xl-2">
+          <img src="images/alderman.png" alt="alderman">
+        </div>
+        <div class="col-sm-6 col-md-3 col-xl-2">
+          <img src="images/cox.jpg" alt="cox">
+        </div>
+        <div class="col-sm-6 col-md-3 col-xl-2">
+          <img src="images/fry.jpg" alt="fry">
+        </div>
+        <div class="col-sm-6 col-md-3 col-xl-2">
+          <img src="images/versaas.jpg" alt="versaas">
+        </div>
+        <div class="col-sm-6 col-md-3 col-xl-2">
+          <img src="images/mckibben.jpg" alt="mckibben">
+        </div>
+        <div class="col-sm-6 col-md-3 col-xl-2">
+          <img src="images/miller2.jpg" alt="miller2">
+        </div>
+        <div class="col-sm-6 col-md-3 col-xl-2">
+          <img src="images/miller.jpg" alt="miller">
+        </div>
+        <div class="col-sm-6 col-md-3 col-xl-2">
+          <img src="images/min.jpg" alt="min">
+        </div>
+        <div class="col-sm-6 col-md-3 col-xl-2">
+          <img src="images/westover.jpg" alt="westover">
+        </div>
+        <div class="col-sm-6 col-md-3 col-xl-2">
+          <img src="images/steinbeck.jpg" alt="steinbeck">
+        </div>
+        <div class="col-sm-6 col-md-3 col-xl-2">
+          <div id="box">ADD NEW BOOK</div>
+        </div>
       </div>
     </div>
   </div>
@@ -65,6 +90,7 @@
 
 
 
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
