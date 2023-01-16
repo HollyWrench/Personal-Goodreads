@@ -4,7 +4,7 @@
 #header {
 	background-color: rgba(255, 208, 208, 1);
 	background-size: cover;
-	padding: 0px 100px;
+	padding: 0px 80px;
 	display: flex;
 	justify-content: space-between; /* so text and avatar on opposite sides*/
   position: absolute;
@@ -14,8 +14,24 @@
   top: 0px;
 }
 
+#navbar {
+  padding: 4px 80px;
+  background-color: #FFE5E5;
+  font-family: 'Redressed', cursive;
+  font-weight: 400;
+  font-size: 34px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 90px;
+}
+
+#navbar h2 {
+  padding: 6px 0px 0px 0px;
+}
+
 .container {
-	padding: 20px 100px;
+  padding: 20px 100px;
   position: relative;
   top: 120px;
 }
