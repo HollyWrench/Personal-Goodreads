@@ -76,6 +76,7 @@
 .all-books img {
   border-radius: 4px;
   margin: 4px;
+  justify-content: space-between;
 }
 
 #box {
@@ -102,4 +103,39 @@
   border-radius: 40px;
   margin: 40px 0px;
   box-shadow: 10px 10px 30px #DFFFD0;
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 34px;
+}
+
+.book-review img {
+  height: 480px;
+  margin: 80px 60px;
+  border: 1px solid #FFA7A7;
+  float: left;
+  /* ^^ positions this img to the left of the text */
+}
+
+.number-and-title {
+  text-align: center;
+}
+
+.number-and-title h2 {
+  color: #FF6D6D;
+  font-size: 30px;
+}
+
+.book-info {
+  width: 46%;
+  float: right;
+  margin-top: 80px;
+  margin-right: 80px;
+}
+
+.review-info {
+  background-color: white;
+  border: 1px solid #FFA7A7;
+  border-radius: 40px;
+  height: 400px;
+  width: 100%;
+  float: right;
 }
